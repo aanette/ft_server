@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS wordpress;
+CREATE USER IF NOT EXISTS 'aanette'@'localhost' IDENTIFIED BY 'aanette';
+GRANT ALL PRIVILEGES ON wordpress.* TO 'aanette'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
